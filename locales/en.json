@@ -1,0 +1,120 @@
+{
+  "defaultSeo": {
+    "title": "Daniel Broderick | Data Engineer",
+    "description": "Daniel Broderick is a Data Engineer, experienced in creating beautiful and functional websites and web applications.",
+    "url": "https://www.daniel-broderick.com/",
+    "previewImage": "https://user-images.githubusercontent.com/4708484/93688063-050a8980-fa91-11ea-89ca-3530a9038393.png"
+  },
+  "heroData": {
+    "greetings": "HELLO, ",
+    "introduction": "I'm Daniel Broderick",
+    "role": "Data Engineer",
+    "paragraph": "But I dabble with a bit of everything.",
+    "button1": "Check my work",
+    "button2": "Contact me"
+  },
+  "aboutData": {
+    "aboutTitle": "About me",
+    "aboutItems": [
+      "Academic background in Computer Science, Biology, Genetics, Statistics.",
+      "I'm a Data Engineer based in Washington DC.",
+      "I work at NCBI on the Sequence Read Archive, a ~50PB database of genetic sequencing datat.",
+      "I'm a pragmatist and I love to learn.",
+      "In my free time I like to be active! I was a varsity swimmer for eight years; I also enjoy hiking, lifting, and chilling on the beach. Of course, my favorite thing to do is tinker online."
+    ],
+    "resumeTitle": "Resumé",
+    "resumeParagraph": "You can check my resumé in the link below.",
+    "resumeButton": "Resumé",
+    "resumeLink": "/resume/resume-en.pdf",
+    "skillsTitle": "Skills"
+  },
+  "portfolioData": {
+    "portfolioTitle": "Portfolio",
+    "projects": [
+      {
+        "name": "SwiftWebMarketing",
+        "projectUrl": "https://swiftwebmarketing.com",
+        "repoUrl": "https://github.com/Danjoe4/SwiftWebMarketing",
+        "imgPath": "projectMedia/issueless.png",
+        "imgAlt": "Issueless preview",
+        "summary": "A single page marketing agency website.",
+        "keyFeatures": [
+          "Hybrid static & server rendering",
+          "OAuth sign-in services",
+          "Markdown support",
+          "Custom theme"
+        ],
+        "technologies": [
+          "Flask",
+          "Vanilla JS",
+          "Material-UI",
+          "Bootstrap",
+          "AWS EC2"
+        ]
+      },
+      {
+        "name": "NextCloud",
+        "projectUrl": "/nextcloud",
+        "repoUrl": "https://github.com/kelvinsanchez15/easybank-landing-page",
+        "imgPath": "projectMedia/easybank.png",
+        "imgAlt": "Easybank website preview",
+        "summary": "A self hosted instance of NextCloud for my friends and family.",
+        "keyFeatures": [
+          "DNS resolution through an AWS EC2 instance",
+          "HTTPS certificate through Let's Encrypt",
+          "Hosted on an old laptop",
+          "File sharing and 2TB of storage"
+        ],
+        "technologies": ["Ubuntu Server", "AWS", "Apache", "PostgreSQL"]
+      },
+      {
+        "name": "BombaiMTY",
+        "projectUrl": "https://bombai-mty-menu.vercel.app/",
+        "repoUrl": "https://github.com/kelvinsanchez15/bombai-menu",
+        "imgPath": "projectMedia/bombai-mty.png",
+        "imgAlt": "BombaiMTY website preview",
+        "summary": "Fast food sales portal with WhatsApp checkout.",
+        "keyFeatures": [
+          "Product filter",
+          "Shopping cart",
+          "Cover photo",
+          "Google Sheets integration"
+        ],
+        "technologies": ["Chakra UI", "TypeScript", "React", "NextJS"]
+      },
+      {
+        "name": "A-Note",
+        "projectUrl": "https://a-note.vercel.app",
+        "repoUrl": "https://github.com/kelvinsanchez15/a-note",
+        "imgPath": "projectMedia/a-note.png",
+        "imgAlt": "A-note site mocked device preview",
+        "summary": "A simple, fast and intuitive note-taking app built with NextJS JAMStack solution.",
+        "keyFeatures": [
+          "Serveless API routes",
+          "Optimistic UI",
+          "JWT authentication",
+          "Profile customization"
+        ],
+        "technologies": ["React", "NextJS", "MongoDB", "Material-UI", "SWR"]
+      }
+    ]
+  },
+  "contactData": {
+    "title": "Contact",
+    "p1": "If you are interested in hiring me for your project please use the form below to get in touch. Want to know how I work and what I can offer? Check out my ",
+    "p2": "portfolio",
+    "p3": " and ",
+    "p4": "resumé",
+    "resumeLink": "/resume/resume-en.pdf",
+    "subtitle": "You can also find me on the following channels",
+    "formTitle": "Get in touch",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "placeholder": "Feel free to include any details.",
+    "submitButton": "send",
+    "requiredErrorMessage": "Required",
+    "invalidEmailErrorMessage": "Invalid email format"
+  }
+}
